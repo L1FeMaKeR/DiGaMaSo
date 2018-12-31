@@ -18,7 +18,7 @@
             "compilerPath": "F:\\Programme\\cygnus\\cygwin-b20\\H-i586-cygwin32\\bin\\gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "msvc-x64"
         }
     ],
     "version": 4
