@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "F:\\Windows Kits\\10\\Include\\10.0.17134.0\\um",
+                "F:\\Windows Kits\\10\\Include\\10.0.17134.0\\shared",
+                "F:\\Windows Kits\\10\\Include\\10.0.17134.0\\ucrt",
+
+                "F:\\Programme\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.14.26428\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "F:\\Programme\\cygnus\\cygwin-b20\\H-i586-cygwin32\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
