@@ -44,7 +44,22 @@ int WinMain(HINSTANCE instance, HINSTANCE prevInstance, PSTR cmdLine, INT cmdSho
         
         if (Window) 
         {
-            
+            MSG message;
+            while(globalRunning && PeekMessage(&message, 0, 0, 0, PM_REMOVE))
+            {
+                switch(message.message)
+                {
+                    case WM_QUIT:
+                    {
+                        globalRunning = false;
+                    }break;
+                    default:
+                    {
+                        TranslateMessage(&message);
+                        DispatchMessageA(&message);
+                    }break;
+                }
+            }
         }
         
     }
